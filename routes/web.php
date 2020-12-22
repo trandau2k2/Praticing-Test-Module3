@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AgencyManager;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',[\App\Http\Controllers\AgencyManager::class,'index'])->name('agency.index');
+Route::post('/',[AgencyManager::class,'search'])->name('agency.search');
+Route::get('/add',[AgencyManager::class,'create'])->name('agency.create');
+Route::post('/add',[AgencyManager::class,'store'])->name('agency.store');
+Route::get('/edit/{id}',[AgencyManager::class,'edit'])->name('agency.edit');
+Route::post('/edit/{id}',[AgencyManager::class,'update'])->name('agency.update');
+Route::get('/delete/{id}',[AgencyManager::class,'destroy'])->name('agency.destroy');
+Route::get('/dashboard',function (){
+    return view('dashboard');
 });
