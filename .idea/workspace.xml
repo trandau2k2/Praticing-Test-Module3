@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1116d05-19ef-4c59-894a-bf4cf69d8689" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AgencyManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Agency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_22_12_210702_create_agencies_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../loginform/BACKGROUND/css.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../loginform/BACKGROUND/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../loginform/BACKGROUND/js.js" afterDir="false" />
@@ -129,7 +120,9 @@
       <change beforePath="$PROJECT_DIR$/../Case3/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Case3/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Inotes" beforeDir="false" afterPath="$PROJECT_DIR$/../Inotes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PHP-News-Website" beforeDir="false" afterPath="$PROJECT_DIR$/../PHP-News-Website" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SkipYoutubeAds/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SkipYoutubeAds/content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SkipYoutubeAds/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SkipYoutubeAds/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TH_Module2/Product-Management/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../TH_Module2/Product-Management/index.php" afterDir="false" />
@@ -303,12 +296,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Thi-Thuc-Hanh-Module-3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
@@ -327,7 +321,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608605149952</updated>
       <workItem from="1608605151083" duration="130000" />
-      <workItem from="1608605755634" duration="2614000" />
+      <workItem from="1608605755634" duration="3149000" />
+      <workItem from="1608609293072" duration="169000" />
     </task>
     <servers />
   </component>

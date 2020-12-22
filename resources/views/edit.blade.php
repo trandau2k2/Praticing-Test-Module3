@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Title</title>
+    <title>Edit form</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,19 +14,19 @@
 <div class="container">
     <div class="card mt-4">
         <div class="card-header">
-            Sửa thông tin đại lý phân phối
+            Edit Information of Agency
         </div>
         <div class="card-body">
             <form action="{{route('agency.update',$agency->id)}}" method="post">
                 @csrf
-                <label class="form-label ">Tên đại lý</label>
+                <label class="form-label ">Agency Name</label>
                 <input value="{{$agency->name}}" class="form-control @if($errors->first('name'))
                     border border-danger
 @endif" name="name">
                 @if($errors->any())
                     <p class="text-danger">{{ $errors->first('name') }}</p>
                 @endif
-                <label class="form-label">Điện thoại</label>
+                <label class="form-label">Phone</label>
                 <input value="{{$agency->phone}}" class="form-control @if($errors->first('phone'))
                     border border-danger
 @endif" name="phone">
@@ -40,14 +40,14 @@
                 @if($errors->any())
                     <p class="text-danger">{{ $errors->first('email') }}</p>
                 @endif
-                <label class="form-label">Địa chỉ</label>
+                <label class="form-label">Address</label>
                 <input value="{{$agency->address}}" class="form-control @if($errors->first('address'))
                     border border-danger
 @endif" name="address">
                 @if($errors->any())
                     <p class="text-danger">{{ $errors->first('address') }}</p>
                 @endif
-                <label class="form-label">Tên người quản lý</label>
+                <label class="form-label">Manager's Name</label>
                 <input value="{{$agency->manager}}" class="form-control @if($errors->first('manager'))
                     border border-danger
 @endif" name="manager">
@@ -56,10 +56,10 @@
                 @endif
                 <label class="form-label">Trạng thái</label>
                 <select name="status" class="form-control">
-                    <option @if($agency->status == 'Hoạt động') selected @endif>Hoạt động</option>
-                    <option @if($agency->status == 'Ngừng hoạt động') selected @endif>Ngừng hoạt động</option>
+                    <option @if($agency->status == 'Active') selected @endif>Active</option>
+                    <option @if($agency->status == 'Inactive') selected @endif>Inactive</option>
                 </select>
-                <input type="submit" value="Cập nhật" class="btn btn-success mt-4">
+                <input type="submit" value="Update" class="btn btn-success mt-4">
                 <a href="{{route('agency.index')}}" class="btn btn-secondary mt-4 ml-5">Back</a>
 
             </form>
